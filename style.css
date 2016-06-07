@@ -40,3 +40,14 @@ p, li {
     display: table;
     margin: 0 auto;
 }
+
+.ToDo {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	color: #D1D1D1;
+	font-size: 64;
+	padding: 0;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 2.7px;
+
+}
