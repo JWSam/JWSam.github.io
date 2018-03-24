@@ -14,12 +14,6 @@ p, li {
   letter-spacing: 1px;
 }
 
-#button {
-    width: 6em;
-    border: 2px solid green;
-    background: #ffe;
-    border-radius: 5px;
-}
 a {
     display: block;
     width: 100%;
@@ -46,17 +40,6 @@ a:hover {
 	letter-spacing: 1px;
 }
 
-.btn2 {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    display: table;
-    margin: 0 auto;
-}
 
 .title {
 	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
