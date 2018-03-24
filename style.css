@@ -14,7 +14,24 @@ p, li {
   letter-spacing: 1px;
 }
 
-
+#button {
+    width: 6em;
+    border: 2px solid green;
+    background: #ffe;
+    border-radius: 5px;
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: red;
+    background: #eff;
+}
 
 .wrapper {
     padding: 15em 0;
@@ -41,7 +58,7 @@ p, li {
     margin: 0 auto;
 }
 
-.ToDo {
+.Sites {
 	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 	color: #D1D1D1;
 	font-size: 64;
