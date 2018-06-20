@@ -368,6 +368,60 @@
 			padding-left: 2.7em;
 		}
 
+/* Picture Grid */
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE10 */
+	-webkit-flex: 50%
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+	resize: both;
+    margin-top: 8px;
+    vertical-align: middle;
+	border-radius: 2px;
+	width: 100%;
+}
+.column img:hover {
+	-ms-transition: transform 0.1s ease-in-out;
+	-webkit-transition: transform 0.1s ease-in-out;
+	transition: transform 0.1s ease-in-out;
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns
+@media screen and (max-width: 1079px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+*/
+
+/* Responsive layout - makes the  columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+		
+		
+		
 /* Tables */
 
 	table {
@@ -542,11 +596,13 @@
 		
 		.wrapper.style4 img {
 				width: 100%;
+				display: block;
+				width:75%;
 				height: auto;
 				margin-left: auto;
 				margin-right: auto;
 			}
-
+			
 		.wrapper.style5 {
 			background: #82b440;
 			text-align: center;
