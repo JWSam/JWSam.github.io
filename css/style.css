@@ -516,6 +516,8 @@
 			.wrapper.style2 img {
 				width: 100%;
 				height: auto;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 		.wrapper.style3 {
@@ -541,6 +543,8 @@
 		.wrapper.style4 img {
 				width: 100%;
 				height: auto;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 		.wrapper.style5 {
